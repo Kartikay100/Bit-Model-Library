@@ -1,0 +1,31 @@
+## Parameters used throughout the code:
+
+* omega (rev/min) = Rotary speed
+* wear_flat_length (in) = Horizontal length of cutter after wearing
+* d (in) = Depth of cut
+* rock_intrinsic_energy (lbf/in²)
+* zeta (unitless) = Vertical to horizontal force ratio
+* WOB (lb) = Weight on bit
+* WOB_c (lb) = Weight on bit due to cutting action
+* WOB_f (lb) = Weight on bit due to friction 
+* TOB (lb.ft) = Torque on bit
+* TOB_c (lb.ft) = Torque on bit due to cutting action
+* TOB_f (lb.ft) = Torque on bit due to friction
+* mu (unitless) = Friction cofficient 
+* d_tob (in) = Depth of cut calculated from TOB
+* d_wob (in) = Depth of cut calculated from WOB
+* dc (in) = Cutter diameter
+* alpha (degrees) = Back rake angle
+* beta (degrees) = Side rake angle
+* Sc (in²) = Cutting surface area
+* Sw (in²) = Worn surface of cutter
+* Rc (lbf/in²) = Index of rock strength for cutting (rock resistance)
+* Rp (lbf/in²) = Index of rock strength for pressing (contact pressure)
+* nc (unitless) = Number of cutters
+* sigma_t (lbf/in²) = Rock tensile strength
+* sigma_c (lbf/in²) = Rock uniaxial compressive strength
+* w (inches) =  Cutter width (same as dc in case of disc cutters)
+* theta_f (degrees) = Friction angle
+* sigma_0 (lbf/in²) = Hydrostatic stree in crushed zone
+* A (in) = Cut cross section area
+* A_ch (in) = Chamfer surface area
