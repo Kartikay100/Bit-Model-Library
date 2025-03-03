@@ -14,7 +14,7 @@ It is also capable of calculating the WOB & TOB using Detournay et al. and Ziaja
 
 
 *Documentation:*
-- The supplied model is written in Python. To run the code, run XXXXX.
+- The supplied model is written in Python. To run the code, run SameBitModel.ipynb.
 - Attached with the code two files which are Input_File.xlsx and Output_File.xlsx.
    . The former is showing how the inputs should be fed in to be compatible with the code.
    . The later is a sample of the models outcome.
