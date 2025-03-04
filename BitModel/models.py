@@ -347,8 +347,3 @@ def process_excel(input_file, output_file):
         results_df.to_excel(writer, sheet_name="Results", index=False)
 
         
-# Usage example with input and output paths
-input_file_path = r"C:\Users\Elias Edward\Desktop\A&M\Papers\PDC-Rock Interaction\Coding\Forge Testing\3_Forge_Data_12.25in (All).xlsx"
-output_file_path = r"C:\Users\Elias Edward\Desktop\A&M\Papers\PDC-Rock Interaction\Coding\Forge Testing\4_output_data_12.25in.xlsx"
-process_excel(input_file_path, output_file_path)
-
