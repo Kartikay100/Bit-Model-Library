@@ -1,4 +1,4 @@
-##Overview:##
+# Overview:
 This repository contains the Python implementation of a series of drill bit models taken from published literature.  A full description of the models and implementation can be found in [SPE-223715-MS](https://doi.org/10.2118/223715-MS), presented at the 2025 SPE/IADC Drilling Conference in Stavanger, Norway.
 
 The following four models are current implemented:
@@ -10,12 +10,12 @@ The following four models are current implemented:
 All four models may be used to estimate rate of penetration (ROP).  Weight on bit (WOB) & torque on bit (TOB) may also be calcualted using Detournay et al. and Ziaja's models.
 
 
-##About this code:##
+## About this code:
 - It can be employed for predicting the ROP based on 4 different models.
 - It can be utilized easily for studying and comparison purposes.
 
 
-#Documentation:#
+## Documentation:
 - The supplied model is written in Python. An example usage included in the `Example` folder:
   - To run the code, run the `SameBitModel.ipynb` notebook.
   - `Input_File.xlsx` provides an example formatting for the inputs to be compatible with the code.
@@ -23,9 +23,9 @@ All four models may be used to estimate rate of penetration (ROP).  Weight on bi
 - `Parameters.txt` provides the necessary parameters used in all models with related units to facilitate understanding the code.
 
 
-*Remember to:*
+### Remember to:
 - The path for the input and output file should be specified in the `BitModel.py`. 
 
 
-*Assumption made by the authors:*
+### Assumption made by the authors:
 - Gerbaud et al. & Che et al. models are both single cutter models and integrated into full bit model using the number of cutters (nc)
